@@ -1,6 +1,5 @@
 import { Client, GatewayIntentBits, Collection } from "discord.js";
 import fs from "fs";
-import MusicSystem from "./utils/music-system.ts";
 
 import "dotenv/config";
 
@@ -16,8 +15,6 @@ client.config = (
   await import(`${process.cwd()}/config.json`, { with: { type: "json" } })
 ).default;
 client.logs = (await import(`${process.cwd()}/src/utils/logging.js`)).default;
-
-client.musicsystem = new MusicSystem(client);
 
 client.commands = new Collection<string, any>();
 

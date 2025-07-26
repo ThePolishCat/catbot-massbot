@@ -1,0 +1,34 @@
+[
+  {
+    "guildId": "1388971438052081735",
+    "guildName": "testing chamber",
+    "categories": [
+      {
+        "id": "1388971438597345442",
+        "name": "omftxyqw",
+        "position": 0
+      },
+      {
+        "id": "1388971438597345443",
+        "name": "3mopauk1",
+        "position": 1
+      }
+    ],
+    "channels": [
+      {
+        "id": "1388971438597345444",
+        "name": "0r12ed2t",
+        "type": 0,
+        "parentId": "1388971438597345442",
+        "position": 0
+      },
+      {
+        "id": "1388971438597345445",
+        "name": "38ujobnv",
+        "type": 2,
+        "parentId": "1388971438597345443",
+        "position": 0
+      }
+    ]
+  }
+]
